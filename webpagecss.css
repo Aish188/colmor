@@ -1,0 +1,322 @@
+*{
+    padding:0;
+    margin:0;
+}
+#bd{
+    border: 2px solid rgb(172, 169, 169);
+}
+
+.nav{
+    height: 64px;
+    padding-left:24px;
+     padding-right: 24px;
+}
+
+#ha{
+    font-size:32px;
+    color: rgb(66, 65, 65);
+}
+
+#hb{
+    font-size:32px;
+    color:rgb(192, 189, 189);
+}
+
+#im1{
+    width:60%;
+    padding:32px 24px;
+}
+
+
+#co1{
+    border-right:2px solid rgb(219, 212, 212);
+}
+
+#im2{
+    width:100%; 
+    padding:32px 24px;
+}
+
+#hh{
+    width:100%; 
+    padding-left:24px;
+     font-weight: bold;
+}
+
+#pp{
+    width:100%; 
+    padding-left:24px;
+}
+
+#bd{
+    overflow-x: hidden;
+    ;
+}
+
+#pp2{
+    font-size:75%;
+    width:60%; 
+    padding-bottom:32px;
+     padding-left:24px;
+}
+
+#r1, #r2{
+    border-bottom:2px solid rgb(219, 212, 212);
+}
+
+#im3{
+    width:35%;
+    height:auto;
+    padding:32px 24px 24px 24px;
+}
+#tx1.h4{
+    font-style:bold;
+}
+#r2 img{
+    width:35%;
+    padding:24px 24px 24px 24px;
+}
+#rr3 img{
+    width:35%; 
+    padding:16px 16px 16px 25px;height:auto;
+}
+.card-body{
+    padding-left:16px;
+}
+.card-text{
+    padding:16px 0px;
+}
+#pc{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+#pc2{
+    padding-bottom:24px;
+}
+#stl{
+    text-align:center;
+     padding-top:32px;
+}
+#rp{
+    padding-right:72px; 
+    padding-left:72px;
+}
+#rc{
+    padding:32px 72px;
+}
+.thesis{
+    text-align: center;
+     padding-top:32px;padding-bottom:32x;
+}
+
+#part3 h2{
+    width:100%;
+    padding-left:24px; 
+    font-weight: bold;
+}
+#part3 p{
+    width:100%;
+     padding-left:24px;
+      padding-top:24px;
+       padding-bottom:32px;
+}
+#c5 {
+    padding-top:32px;
+}
+#c5 img{
+    width:35%;
+    height:auto;
+    padding:16px 16px 16px 25px;
+}
+#tx1{
+    width:65%;
+}
+#now img{
+    width:35%;
+    height:auto;
+    padding:0px 24px 24px 24px;
+}
+#now .col{
+    width:65%;
+}
+footer{
+    border-top:2px solid rgb(219, 212, 212);
+}
+
+.term{
+    text-align: right;
+    padding-right: 24px;
+}
+/************
+display none for mobile
+*************/
+@media screen and (max-width:767px)
+ {
+    nav{
+        height:64px;
+    }
+    
+
+    nav h1{
+        display:none;
+    }
+
+    .navbar-nav a{
+        display:none;
+    }
+
+    #im1{
+        width:100%;
+        padding:0px;
+    }
+
+    #text h1{
+        width:100%;
+        padding-top:32px;
+        padding-bottom:32px;
+        padding-left:16px;
+        color: rgb(85, 82, 82);
+    }
+    #text h2{
+        color: rgb(85, 82, 82);
+    }
+    #bt{
+        font-weight: bold;
+        
+    }
+    .col text-left{
+        color: rgb(85, 82, 82);
+
+    }
+    #text h2{
+        padding-bottom:24px;
+    }
+    #text .col{
+        padding-bottom:32px;
+    }
+    #co1{
+        display:none;
+    }
+    #mob{
+        padding:0px 16px 16px 16px;
+        align-items: center;
+        width:100%
+    }
+        
+    #im3{
+         display:none;
+    }
+    #tx1{
+        width:100%;
+        padding-bottom:64px;
+        padding-left:32px;
+    }
+    #desktop{
+        display:none;
+        
+    }
+    .mobile-2{
+        padding-left: 16px;
+    }
+    .mobile-2 img{
+        width:100%; 
+        padding-right:16px;
+        padding-bottom:32px;
+    }
+    #rp{
+        display:none;
+    }
+    #rc{
+        display:none;
+    }
+    #stl{
+        padding-bottom: 16px;
+        color: rgb(88, 86, 86);
+    }
+    #btm{
+        background-color:rgb(196, 195, 195);
+        font-weight:bold;
+        text-align: left;
+        color: rgb(88, 86, 86);
+        padding-top:16px;
+        padding-bottom:24px;
+        padding-left:16px;
+        font-size:25px;
+    } 
+    .mobutton{
+        padding-bottom: 32px;
+    }
+   
+    #part{
+        display:none;
+    }
+    #v1{
+        width:100%
+    }
+    .thesis{
+        width:100%;
+        padding-bottom:16px;
+    }
+    .col-10{
+        padding-top:40px;
+        padding-bottom:5px;
+        padding-left:32px;
+        font-size:80%;
+        
+    }
+    .term{
+        display:none;
+    }
+}
+
+
+
+/*************
+desktop Queries
+**************/
+@media screen and (min-width:768px){
+    
+    #text{
+        width:40%;
+    }
+
+    #text h1{
+        padding-top:140px;
+    }
+    #mob{
+        display:none;
+    }
+    #tx1 h4{
+        padding-top:60px;
+    }
+    #mim{
+        display:none;
+    }
+    .mobile-2{
+        display:none;
+            
+        }
+    #iim{
+            display:none;
+        }
+    .mobutton{
+            display:none;
+        }
+    .mbrm{
+            display:none;
+        }
+        #v1{
+            display:none;
+        }
+        video{
+            width:100%; 
+            padding:32px 24px;
+        }
+        footer p{
+            font-size:80%;
+            padding-left:24px;
+            padding-top:16px;
+            padding-bottom:25px;
+        }
+}
+
